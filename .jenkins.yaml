@@ -1,0 +1,12 @@
+---
+git:
+  branch: main
+triggers:
+  cron: "@daily"
+clean_workspace: true
+builders:
+  - docker
+docker_name: drive/haproxy
+docker_tags:
+  - "2.4"
+docker_no_cache: true
