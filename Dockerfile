@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install --no-install-recommends -yqq \
     curl \
     gettext \
     gnupg \
+    inotify-tools \
     iproute2 \
     procps \
     wget \
