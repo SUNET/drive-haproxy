@@ -8,12 +8,13 @@ apt-get -y dist-upgrade
 # to check for interface status, other containers etc.
 apt-get -y install \
 	curl \
-	haproxy \
+	haproxy=2.2.\* \
 	inotify-tools \
 	iproute2 \
 	iputils-ping \
 	net-tools \
 	netcat-openbsd \
+	vim \
 	procps
 
 # save space

@@ -3,12 +3,12 @@
 #
 
 # use debian:testing to get haproxy 2.0
-FROM debian:testing
+FROM debian:bullseye
 
-MAINTAINER eduid-dev <eduid-dev@SEGATE.SUNET.SE>
+MAINTAINER kano@sunet.se
 
-ADD setup.sh /opt/eduid/setup.sh
-RUN /opt/eduid/setup.sh
+ADD setup.sh /opt/drive/setup.sh
+RUN /opt/drive/setup.sh
 
 WORKDIR /
 
